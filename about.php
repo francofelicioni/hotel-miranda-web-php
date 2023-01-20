@@ -2,7 +2,7 @@
 include "./resources/blade/lib/BladeOne.php";
 use eftec\bladeone;
 
-$views = './views';
+$pages = './pages';
 $compiledFolder = './compiled';
-$blade = new bladeone\BladeOne($views, $compiledFolder);
+$blade = new bladeone\BladeOne($pages, $compiledFolder);
 echo $blade->run("about");
