@@ -1,9 +1,8 @@
-<!-- <?php echo $this->runChild(); ?> '../connection/db.php'; -->
 <?php $_shouldextend[1]=1; ?>
 
-<?php
+<!-- <?php
 echo $rooms;
-?>
+?> -->
 
 <?php $this->startSection('content'); ?>
 
